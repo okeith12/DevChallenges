@@ -1,5 +1,129 @@
-* {
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Montserrat:wght@400;500&family=Space+Mono:wght@400;700&display=swap");
+
+:root {
+  /* Typography */
+  --header-font-size: 24px;
+  --body-lg-font-size: 64px;
+  --body-nm-font-size: 24px;
+  --button-font-size: 14px;
+  --footer-font-size: 14px;
+  /* Fonts */
+  --body-font: "Space Mono", monospace;
+  --header-font: "Inconsolata", monospace;
+  --footer-font: "Montserrat", sans-serif;
+  /* Weights */
+  --normal: 400;
+  --bold: 700;
+}
+@media screen and (min-width: 380px) {
+  :root {
+    /* Typography */
+    --body-lg-font-size: 48px;
+    --body-nm-font-size: 18px;
+  }
+}
+
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body {
+  font-family: var(--body-font);
+  position: relative;
+  width: 1440px;
+  height: 1080px;
+}
+
+.header {
+  position: absolute;
+  width: 133px;
+  height: 25px;
+  left: 77px;
+  top: 40px;
+  font-family: var(--header-font);
+  font-weight: var(--bold);
+  font-style: normal;
+  font-size: var(--header-font-size);
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  color: #333333;
+}
+.container {
+  display: flex;
+}
+.imgholder {
+  width: 539.22px;
+  height: 447.42px;
+}
+#scarecrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 200px 60px;
+
+  width: 100%;
+  height: 100%;
+}
+.textholder {
+}
+.title {
+  width: 586px;
+  height: 190px;
+  left: 735px;
+  top: 265px;
+  font-style: normal;
+  font-weight: var(--bold);
+  font-size: var(--body-lg-font-size);
+  line-height: 95px;
+  letter-spacing: -0.035em;
+  color: #333333;
+}
+p {
+  width: 381px;
+  height: 108px;
+  left: 736px;
+  top: 491px;
+
+  font-style: normal;
+  font-weight: var(--normal);
+  font-size: var(--body-nm-font-size);
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  color: #4f4f4f;
+}
+.button {
+  text-decoration: none;
+
+  display: inline-block;
+  width: 216px;
+  height: 68px;
+  left: 740px;
+  top: 663px;
+  background-color: #333333;
+  text-align: center;
+  line-height: 70px;
+  font-weight: var(--bold);
+  font-size: 14px;
+  /* identical to box height */
+  padding: auto;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer {
+  color: #bdbdbd;
+  position: absolute;
+  width: 287px;
+  height: 17px;
+  left: 577px;
+  top: 1039px;
+  font-family: var(--footer-font);
+  font-weight: 500;
+  font-size: var(--footer-font-size);
+  line-height: 17px;
+  text-align: center;
 }

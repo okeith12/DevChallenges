@@ -19,8 +19,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://dev-challenges-m4s0zx4wi-okeith12.vercel.app/)
+- Solution URL: [Solution](https://github.com/okeith12/DevChallenges/tree/main/qrcode)
+- Live Site URL: [Live Site](https://dev-challenges-m4s0zx4wi-okeith12.vercel.app/)
 
 ## My process
 

@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 import qrCode from "../images/qr-code.png";
 
 const Card = () => {
